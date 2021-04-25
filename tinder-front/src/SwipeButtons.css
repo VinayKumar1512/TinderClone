@@ -1,0 +1,40 @@
+.swipeButtons{
+    padding-top: 200px;
+    position: fixed;
+    bottom: 4vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* .MuiIconButton-root this is the class given to material ui icons by default */
+.swipeButtons .MuiIconButton-root{
+background-color: white;
+box-shadow: 0px 5px 10px 0px rgba(0,0,0,0);
+}
+/* impotant needed to override material-ui icons */
+.swipeButtons_repeat{
+    padding:3vw !important;
+    color:#f5b748 !important;
+
+}
+.swipeButtons_left{
+    padding:3vw !important;
+    color:#ec5e6f !important;
+
+}
+.swipeButtons_star{
+    padding:3vw !important;
+    color:#62b4f9  !important;
+
+}
+.swipeButtons_right{
+    padding:3vw !important;
+    color:#76e2b3 !important;
+
+}
+.swipeButtons_lightning{
+    padding:3vw !important;
+    color:#915dd1 !important;
+
+}
